@@ -1,0 +1,73 @@
+.title {
+  font-family: "Fira Mono", monospace;
+  color: #999;
+}
+
+.name {
+  font-size: 15rem;
+  text-align: center;
+  height: 90vh;
+  line-height: 30vh;
+  color: #b3b3b3;
+  font-family: "Niconne";
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #ffbf33, 10px 10px 0px #efa032, 15px 15px 0px #cccccc,
+    20px 20px 0px #b37a00, 25px 25px 0px #b37a00, 30px 30px 0px #ffd780,
+    35px 35px 0px #ffd780, 40px 40px 0px #ffdf99, 45px 45px 0px #ffdf99;
+}
+
+.img1 {
+  animation: rotation 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 100px;
+  position: absolute;
+  right: 130px;
+  top: -20px;
+}
+
+.img2 {
+  animation: rotation_counter 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 80px;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.img3 {
+  animation: rotation_counter 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 70px;
+  position: absolute;
+  right: 85px;
+  top: 85px;
+}
+
+.box {
+  position: absolute;
+  width: 30%;
+  height: 160px;
+  left: 250px;
+  top: 60px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation_counter {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
