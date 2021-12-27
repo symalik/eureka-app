@@ -2,6 +2,14 @@
   padding-top: 150px;
 }
 
+.catalog > h2 {
+  color: #808080;
+}
+
+.catalog > h2 > span {
+  color: #b37a00;
+}
+
 .details {
   display: flex;
   flex-wrap: wrap;

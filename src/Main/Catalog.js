@@ -4,8 +4,9 @@ import styles from './Catalog.module.css';
 export default function Catalog({item}) {
     return(
         <div className={styles.catalog}>
+            <h2>How do you... '<span>Eureka</span>'</h2>
+            <h2>The one place to find easy 1,2,3 steps to your questions...</h2>
          <div className={styles.details}>
-                    
                     {item.map( (item) => (
                     
                     <div>
@@ -27,7 +28,6 @@ export default function Catalog({item}) {
                         <h5><span>Date: </span>{item.createdDate} </h5>
                     </div>
                     ))}
-                
             </div>
         </div>    
     );
