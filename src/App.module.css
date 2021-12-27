@@ -2,3 +2,24 @@
   text-align: center;
   font-family: "Fira Mono", monospace;
 }
+
+.item1 {
+  grid-area: title;
+  border-color: black;
+}
+.item2 {
+  grid-area: main;
+  border-color: chartreuse;
+}
+
+.content {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "main";
+  background-color: red;
+}
+
+.content > div {
+  text-align: center;
+}

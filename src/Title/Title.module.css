@@ -37,7 +37,7 @@
 }
 
 .img3 {
-  animation: rotation_counter 10s;
+  animation: rotation 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   width: 70px;
@@ -47,7 +47,7 @@
 }
 
 .box {
-  position: absolute;
+  position: relative;
   width: 30%;
   height: 160px;
   left: 250px;

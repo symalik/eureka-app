@@ -1,0 +1,52 @@
+.catalog {
+  padding-top: 150px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4rem 10rem 4rem 10rem;
+  justify-content: space-between;
+}
+
+.details > div {
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px 20px 5px;
+  border: 3px solid rgba(179, 179, 179, 0.9);
+}
+
+span {
+  color: #006680;
+}
+
+h3 {
+  float: left;
+  font-size: large;
+  color: #b37a00;
+}
+
+h3 > span {
+  color: #008fb3;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: justify;
+  font-size: medium;
+}
+
+h5 {
+  float: right;
+  font-size: medium;
+  color: #b37a00;
+}
+
+h5 > span {
+  color: #008fb3;
+  font-weight: bold;
+}
