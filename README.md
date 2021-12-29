@@ -42,6 +42,18 @@ Note: Web API is currently only setup to allow CORS on 'http://localhost:5500'
 
 <br>
 
+<p align="center">
+  <img width="500" src="Eureka-search.png" alt="Eureka Application Sample Image">
+</p>
+
+## Additional Feature:
+
+---
+
+Added the ability to search the database and pull catalog items by Title.
+
+<br>
+
 ## Licence
 
 ---
