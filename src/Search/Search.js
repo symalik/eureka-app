@@ -30,7 +30,7 @@ export default function Search() {
             <div className={styles.details}>
             {apidata.map( (item) => (
                     
-                    <div>
+                    <div key={item.cardId}>
                         <h3><span>Topic: </span>{item.topic}</h3>
                         <h5><span>α: </span>{item.cardId}</h5>
                         <br/>
