@@ -28,6 +28,7 @@ The `Eureka` frontend applicaton is written with React JavaScript library. The a
 
 - Clone repository
 - React server is setup on [localhost:5500](http://localhost:5500)
+- API uses [localhost:44375](https://localhost:44375) (https)
 - Main directory run command '**npm install**'
 - Main directory run command '**npm start**'
 
